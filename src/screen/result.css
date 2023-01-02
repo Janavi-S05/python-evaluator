@@ -38,7 +38,7 @@
       margin:60px auto auto auto;
       display:block;
     }
-    table {
+    .myblock table {
       display: grid;
       border-collapse: collapse;
       min-width: 100%;
@@ -51,13 +51,13 @@
       border-radius:20px;
     }
     
-    thead,
+    .myblock thead,
     tbody,
     tr {
       display: contents;
     }
     
-    th,
+    .myblock th,
     td {
       padding: 15px;
       overflow: hidden;
@@ -65,7 +65,7 @@
       white-space: nowrap;
     }
     
-    th {
+    .myblock th {
       position: sticky;
       top: 0;
       background: rgb(243, 66, 101);
@@ -75,16 +75,16 @@
       color: white;
     }
     
-    th:last-child {
+    .myblock th:last-child {
       border: 0;
     }
     
-    td {
+    .myblock td {
       padding-top: 10px;
       padding-bottom: 10px;
       color: #808080;
     }
     
-    tr:nth-child(even) td {
+    .myblock tr:nth-child(even) td {
       background: #f8f6ff;
     }
