@@ -32,29 +32,13 @@ export default function Result()
           <div class="result-box">10/10</div>
         </td>
       </tr>
-      <tr>
-        <td>2</td>
-        <td>0:20:30</td>
-        <td><div class="result-box">
-          9/10</div></td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>0:29:41</td>
-        <td id="border-result">
-          <div class="result-box">7/10
-        </div></td>
-      </tr>
       </tbody>
       </table>
     </div>
 </div>
 </div>
     </Fragment>
-   
 
     )
     
 }
-
-
