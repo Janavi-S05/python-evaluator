@@ -9,6 +9,12 @@ export default function Home()
     const navigate= useNavigate();
     return (
     <div className="home-body">
+        <div className="nav-board">
+        <ul>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="/leaderboard">Leaderboard</a></li>
+        </ul>
+        </div>
     <div className="home-content">
         <div className="heading">
             <h2>Instructions</h2>
